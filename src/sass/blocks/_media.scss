@@ -1,17 +1,31 @@
 
 @media (max-width: 1200px) {
-
+    
 }
 
 @media (max-width: 991px) {
    .promo {
        padding-right: 15px;
        padding-left: 15px;
+       background:url(../../img/bg/main.jpg) center (center/152% 100%) no-repeat;
    }
    .plus {
-    padding-right: 15px;
-    padding-left: 15px;
+        padding-right: 15px;
+        padding-left: 15px;
    }
+   .consultation {
+    .title {
+        &_left {
+            font-size: 24px;
+        }
+    }
+    .button {
+        &_submit {
+            width: 100%;
+        }
+    }
+}
+   
 }
 
 @media (max-width: 767px) {
@@ -37,6 +51,7 @@
         }
     }
     .promo {
+        background:url(../../img/bg/main.jpg) center center/152% 100% no-repeat;
         min-height: 600px;
         &__wrapper {
             margin-top: 80px;
@@ -60,9 +75,6 @@
         
     }
     .plus {
-        &__title{
-            font-size: 25px;
-        }
         &__wrapper {
             flex-direction: column;
             justify-content: center;
@@ -77,6 +89,21 @@
         }
         &__descr {
             margin-top: 13px;
+        }
+        .title {
+            font-size: 25px;
+        }
+    }
+    .consultation {
+        .title {
+            &_left {
+                font-size: 24px;
+            }
+        }
+        .button {
+            &_submit {
+                width: 100%;
+            }
         }
     }
     
@@ -109,6 +136,7 @@
         }
     }
     .promo {
+        background: url(../../img/bg/main.jpg) center center/180% 99% no-repeat;
         &__wrapper {
             margin-top: 45px;
             align-items: center;
@@ -135,11 +163,6 @@
         }
  
     }
-    .plus {
-        &__title {
-            font-size: 18px;
-        }
-    }
     .button {
         width: 135px;
         font-size: 11px;
@@ -149,4 +172,36 @@
             font-size: 14px;
         }
     }
+    .plus {
+        .title {
+            font-size: 18px;
+        }
+    }
+    .consultation {
+        .consultation__descr {
+            font-size: 18px;
+            text-align: center;
+        }
+        .title {
+            &_left {
+                font-size: 18px;
+                text-align: center;
+            }
+        }
+        .button {
+            &_submit {
+                width: 100%;
+            }
+        }
+        .feed-form {
+            width: 270px;
+            margin-left: 50%;
+            transform: translate(-50%);
+            
+        }
+    }
+    
+    
+    
+    
 }
