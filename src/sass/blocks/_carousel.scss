@@ -1,0 +1,43 @@
+.carousel {
+    padding: 82px 0;
+    &__inner {
+        position: relative;
+        width: 750px;
+        margin: 0 auto;
+    }
+    .slick-prev, .slick-next {
+        position: absolute;
+        border: none;
+        background-color: #fff;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -66px;
+        img {
+            width: 31px;
+            height: 50px;
+        }
+    }
+    .slick-next {
+        right: -66px;
+        left: auto;
+    }
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+    }
+    
+    #slick-slide-control00, #slick-slide-control01, #slick-slide-control02 {
+        width: 30px;
+        border: 2px #fff solid;
+        border-radius: 100%;
+        margin-right: 2px;
+        background-color: #C0C0C0;
+        color:#fff;
+    }
+
+    .slick-dots .slick-active #slick-slide-control00, .slick-dots .slick-active #slick-slide-control01, .slick-dots .slick-active #slick-slide-control02 {
+        background-color:$main-color;
+        color: #fff;
+    }
+}

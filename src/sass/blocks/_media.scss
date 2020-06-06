@@ -4,27 +4,28 @@
 }
 
 @media (max-width: 991px) {
-   .promo {
+    .promo {
        padding-right: 15px;
        padding-left: 15px;
        background:url(../../img/bg/main.jpg) center (center/152% 100%) no-repeat;
-   }
-   .plus {
+    }
+    .plus {
         padding-right: 15px;
         padding-left: 15px;
-   }
-   .consultation {
-    .title {
-        &_left {
-            font-size: 24px;
-        }
     }
-    .button {
-        &_submit {
+    .consultation {
+        padding-left: 20px;
+        .title {
+            &_left {
+                font-size: 24px;
+            }
+        }
+        .button {
+            &_submit {
             width: 100%;
+            }
         }
     }
-}
    
 }
 
@@ -106,6 +107,15 @@
             }
         }
     }
+    .carousel {
+        &__inner {
+            width: 500px;
+            img {
+                width: 100%;
+            }
+            
+        }
+    }
     
 }
 
@@ -178,6 +188,7 @@
         }
     }
     .consultation {
+        padding-left: 0;
         .consultation__descr {
             font-size: 18px;
             text-align: center;
@@ -200,7 +211,16 @@
             
         }
     }
-    
+    .carousel {
+        &__inner {
+            width: 300px;
+            img {
+                width: 100%;
+            }
+            
+        }
+
+    }
     
     
     
