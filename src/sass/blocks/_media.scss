@@ -1,6 +1,6 @@
 
 @media (max-width: 1200px) {
-    
+   
 }
 
 @media (max-width: 991px) {
@@ -31,6 +31,24 @@
             justify-content: center;
         }
             
+    }
+    .reviews {
+        &__img {
+            margin-left: 20px;
+        }
+        &__text {
+            margin-left: 25px;
+            padding-right: 25px;
+        }
+      
+    }
+    .footer {
+        &__info{
+            width: 376px;
+            height: 228px;
+            padding: 20px 28px 20px 28px;
+            border-radius:10px 15px;
+        }
     }
    
 }
@@ -128,6 +146,63 @@
             height: 43px;
             font-size: 14px;
             line-height: 41px;
+        }
+    }
+    .reviews {
+        padding-bottom: 31px;
+        &__item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 70px;
+            &:nth-child(2){
+                margin-top: 30px;
+            }
+        }
+        &__img {
+            width: 169px;
+            height: 169px;
+            margin-bottom: 15px;
+        }
+        &__text {
+            margin-left: 42px;
+            padding-right: 40px;
+        }
+        &__header {
+            font-size: 18px;
+            text-align: center;
+        }
+        &__subheader {
+            font-size: 14px;
+            text-align: center;
+        }
+        &__descr {
+            font-size: 15px;
+        }
+    }
+    .footer {
+        min-height: 530px;
+        &__info{
+            width: 295px;
+            height: 185px;
+            padding: 15px 18px 15px 18px;
+            border-radius: 10px 15px;
+        }
+        &__address {
+            font-size: 16px;
+            line-height: 16px;
+        }
+        &__phone {
+            font-size: 17px;
+            line-height: 17px;
+        }
+        &__social-item {
+            width: 40px;
+            height: 40px;
+            img {
+                height: 21px;
+            }
         }
     }
     
@@ -248,42 +323,28 @@
         }
         
     }
-    .reviews {
-        padding-bottom: 31px;
-        &__item {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin-top: 70px;
-            &:nth-child(2){
-                margin-top: 30px;
-            }
+    .footer {
+        min-height: 430px;
+        position: relative;
+        &__info{
+            width: 249px;
+            height: 154px;
+            padding: 15px;
         }
-        &__img {
-            width: 169px;
-            height: 169px;
-            margin-bottom: 15px;
-        }
-        &__text {
-            margin-left: 42px;
-            padding-right: 40px;
-        }
-        &__header {
-            font-size: 18px;
-            text-align: center;
-        }
-        &__subheader {
+        &__address {
             font-size: 14px;
-            text-align: center;
+            line-height: 14px;
+            margin-bottom: 27px;
         }
-        &__descr {
-            color: #0d0d0d;
+        &__phone {
             font-size: 15px;
-            font-weight: 300;
-            margin-top: 10px;
-            text-align: justify;
+            line-height: 15px;
+            margin-bottom: 27px;
         }
     }
+    iframe {
+        height: 400px;
+    }
+   
     
 }
