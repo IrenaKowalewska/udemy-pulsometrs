@@ -50,6 +50,16 @@
             border-radius:10px 15px;
         }
     }
+    .modal {
+        width: 349px;
+        min-height: 370px;
+        background-color: #f2f2f2;
+        padding: 22px;
+        &_mini {
+            min-height: 128px;
+            width: 285px;
+        }
+    }
    
 }
 
@@ -205,6 +215,21 @@
             }
         }
     }
+    .modal {
+        width: 321px;
+        min-height: 370px;
+        background-color: #f2f2f2;
+        padding: 12px;
+        &_mini {
+            min-height: 107px;
+        }
+        .button {
+            &_submit {
+                margin-left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
     
 }
 
@@ -277,6 +302,11 @@
             font-size: 18px;
         }
     }
+    .feed-form {
+        margin-top: 30px;
+        width: 280px;
+       
+    }
     .consultation {
         padding-left: 0;
         .consultation__descr {
@@ -345,6 +375,13 @@
     iframe {
         height: 400px;
     }
-   
-    
+    .modal {
+        width: 300px;
+        &__subtitle {
+            font-size: 16px;
+        }
+        &__close {
+            right: 0;
+        }
+    } 
 }
