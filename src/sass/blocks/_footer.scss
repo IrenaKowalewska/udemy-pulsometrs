@@ -40,22 +40,25 @@
         height: 50px;
         border: 2px solid #ffffff;
         color: #ffffff;
-        font-size: 30px;
+        font-size: 28px;
         border-radius: 100%;
         cursor: pointer;
-        transition: all .4s;
+        transition: all .4s ease;
         &_facebook:hover{
+            border-color: #3b5998;
             color: #3b5998;
-            box-shadow: 0 0 15px #3b5998;
+            box-shadow: 0 0 25px #3b5998;
             
         }
         &_instagram:hover {
-            color: #f714af;
-            box-shadow: 0 0 25px #f714af;
+            border-color: #bc2a8d;
+            color: #bc2a8d;
+            box-shadow: 0 0 25px #bc2a8d;
         }
-        &_pintereset:hover {
-            color: #f1284a;
-            box-shadow: 0 0 35px #e6b0b9;
+        &_whatsapp:hover {
+            border-color: #4dc247;
+            color: #4dc247;
+            box-shadow: 0 0 25px #4dc247;
         }
         img {
             height: 27px;
