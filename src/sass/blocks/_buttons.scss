@@ -8,9 +8,10 @@
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
-    transition: all .5s ease;
+    transition: all .3s ease;
     &:hover {
-        box-shadow: 3px 3px 20px $main-color;
+        // box-shadow: 3px 3px 20px $main-color;
+        border:1px solid $main-color;
         background: linear-gradient($main-color, #440303);
     }
     &_main {
