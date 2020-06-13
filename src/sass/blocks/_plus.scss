@@ -11,6 +11,12 @@
         flex-direction: column;
         align-items: center;
         max-width: 240px;
+        &_animated {
+            animation: heartbeat 2s ease infinite;
+            &:hover{
+                animation-play-state: paused;
+            }
+        }
 
     }
     &__subtitle {
@@ -30,4 +36,5 @@
             text-decoration: underline;
         }
     }
+   
 }
